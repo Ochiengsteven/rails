@@ -1,1 +1,9 @@
 <h1>Hello World</h1>
+<ul>
+  <% @greetings.each do |greeting| %>
+    <li><%= greeting %></li>
+  <% end %>
+</ul>
+<p>
+    6 + 8 = <%= @answer %>
+</p>
